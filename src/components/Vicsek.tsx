@@ -13,6 +13,7 @@ const Vicsek: FC = () => {
   const [speed, setSpeed] = useState<number>(2);
   const [noise, setNoise] = useState<number>(0.1);
   
+  
   const particlesRef = useRef<Particle[]>([]);
   const widthRef = useRef<number>(200);
   const heightRef = useRef<number>(200);
